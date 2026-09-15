@@ -50,7 +50,7 @@ Test-case design, bug reporting, retesting, release-readiness communication, and
 
 UI automation for the public **Automation Exercise** practice website, connecting documented test cases with executable checks and reviewable evidence.
 
-**Snapshot — 10 September 2026: 9 automated scenarios of 26 planned; 9 passed in the committed Allure report.**
+**Snapshot — 14 September 2026: 13 automated scenarios of 26 planned; 13 passed in the committed Allure report.**
 
 - Registration, valid/invalid login, logout, and duplicate-email validation.
 - Contact-form submission with an attachment and confirmation checks.
