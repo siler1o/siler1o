@@ -34,6 +34,7 @@ These highlights describe my professional QA background. The UI automation and A
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-C73A24?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 - **UI automation:** Page Object Model (POM), shared Pytest fixtures, reusable locators, and explicit waits with `WebDriverWait` and Expected Conditions.
 - **API validation:** Postman requests, environment variables, form-data bodies, JSON parsing, and JavaScript assertions for status codes, messages, and returned data.
@@ -52,17 +53,26 @@ Test-case design, bug reporting, retesting, release-readiness communication, and
 
 UI automation for the public **Automation Exercise** practice website, connecting documented test cases with executable checks and reviewable evidence.
 
-**Current scope: 13 automated UI scenarios out of 26 planned.**
+**Current scope: 19 automated UI scenarios out of 26 planned.**
+
+[![Selenium CI/CD](https://github.com/siler1o/selenium-qa-automation-portfolio/actions/workflows/selenium-ci.yml/badge.svg?branch=main)](https://github.com/siler1o/selenium-qa-automation-portfolio/actions/workflows/selenium-ci.yml)
+
+**Verified on September 28, 2026:** [all 19 tests passed in GitHub Actions, and Allure report deployment succeeded](https://github.com/siler1o/selenium-qa-automation-portfolio/actions/runs/36410035949).
 
 - Registration, valid/invalid login, logout, and duplicate-email validation.
 - Contact-form submission with an attachment and confirmation checks.
 - Test Cases navigation, product listing, and product-detail validation.
 - Product search with non-empty results and a relevance check for every returned card.
 - Homepage and cart subscriptions, multi-product cart validation, and product-quantity checks.
+- Checkout and order placement through registration during checkout, registration before checkout, and login before checkout.
+- Delivery and billing address checks, payment-form submission, and order confirmation.
+- Product removal with empty-cart verification, plus category and brand navigation with visible product listings.
 
-The code shows my progression from a direct-Selenium registration test to reusable page objects and structured reporting. The project supports local Chrome execution and has a GitHub Actions workflow for headless test runs and Allure report deployment after successful `main` runs.
+Tests use reusable page objects, explicit waits, and shared browser fixtures. Product names and prices are captured before cart validation, and registration flows use unique test emails. The login-before-checkout scenario creates its own account, signs out, then signs back in before ordering.
 
-[Browse the code](https://github.com/siler1o/selenium-qa-automation-portfolio) · [Explore the report](https://siler1o.github.io/selenium-qa-automation-portfolio/) · [View CI workflow](https://github.com/siler1o/selenium-qa-automation-portfolio/blob/main/.github/workflows/selenium-ci.yml) · [Archived report snapshot](https://github.com/siler1o/selenium-qa-automation-portfolio/blob/255aa069f5d3e6a2b7df0ff9e4837c88219c9e0b/docs/widgets/statistic.json)
+GitHub Actions runs the Selenium suite in headless Chrome on pull requests and pushes to `main`. Successful `main` runs generate and deploy the Allure report to GitHub Pages. Raw test results are retained as downloadable workflow artifacts, including when tests fail.
+
+[Browse the code](https://github.com/siler1o/selenium-qa-automation-portfolio) · [Explore the report](https://siler1o.github.io/selenium-qa-automation-portfolio/) · [View CI workflow](https://github.com/siler1o/selenium-qa-automation-portfolio/blob/main/.github/workflows/selenium-ci.yml)
 
 ### [Postman API Testing Portfolio](https://github.com/siler1o/postman-api-testing-portfolio)
 
@@ -79,7 +89,8 @@ Functional API testing against the public **Automation Exercise** practice API, 
 
 ## 🌱 Currently Working On
 
-- Extending Selenium coverage into checkout and order-placement scenarios.
+- Completing the remaining seven Selenium scenarios, starting with product search and cart persistence after login (TC020).
+- Strengthening checkout assertions, including order totals and more precise address validation.
 - Strengthening Python and JavaScript fundamentals, reusable test code, and clear failure messages.
 - Preparing repeatable Postman collection runs and learning command-line API execution with Newman.
 - Improving failure-evidence capture and test-account setup and cleanup.
