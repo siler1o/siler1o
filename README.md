@@ -1,3 +1,5 @@
+![Reuben Silerio — QA Engineer, web and mobile testing, UI automation and API testing](media/qa-profile-banner.svg)
+
 # Reuben Silerio
 
 **QA Engineer | Web & Mobile Testing | UI Automation | API Testing**
@@ -47,16 +49,16 @@ I have coordinated testing activities for a six-person QA team and maintained mo
 
 An automated UI regression suite for the Automation Exercise practice application, with documented test scenarios, reusable page objects, and published execution reports.
 
-**19 of 26 planned scenarios implemented.**
+**26 of 26 planned UI scenarios implemented.**
 
 [![Selenium CI/CD](https://github.com/siler1o/selenium-qa-automation-portfolio/actions/workflows/selenium-ci.yml/badge.svg?branch=main)](https://github.com/siler1o/selenium-qa-automation-portfolio/actions/workflows/selenium-ci.yml)
 
-- **Coverage:** registration and authentication, product search, category and brand navigation, subscriptions, cart operations, and three checkout journeys.
-- **Validation:** product details, cart prices and quantities, delivery and billing addresses, payment-form submission, and order confirmation.
+- **Coverage:** registration and authentication, product search, category and brand navigation, subscriptions, cart operations, three checkout journeys, cart persistence after login, reviews, invoice downloads, and scrolling.
+- **Validation:** product details, cart prices and quantities, delivery and billing addresses, payment-form submission, order confirmation, completed invoice downloads, and viewport behavior.
 - **Architecture:** Page Object Model, shared browser fixtures, explicit waits, unique registration emails, and captured product data for cart comparisons.
 - **Delivery workflow:** headless test execution on pull requests and pushes to `main`; successful `main` runs generate and deploy Allure reports to GitHub Pages.
 
-**Verified execution:** [19 tests passed and report deployment succeeded on September 28, 2026](https://github.com/siler1o/selenium-qa-automation-portfolio/actions/runs/36410035949).
+**Execution evidence:** all 26 tests passed locally as reported on September 29, 2026. The [latest verified CI run](https://github.com/siler1o/selenium-qa-automation-portfolio/actions/runs/36563115293) recorded **25 passed and one TC016 timeout**; report deployment was skipped. The live badge above tracks subsequent runs.
 
 [Source Code](https://github.com/siler1o/selenium-qa-automation-portfolio) · [Execution Report](https://siler1o.github.io/selenium-qa-automation-portfolio/) · [CI/CD Workflow](https://github.com/siler1o/selenium-qa-automation-portfolio/blob/main/.github/workflows/selenium-ci.yml)
 
@@ -74,8 +76,8 @@ A functional API testing project covering **14 positive and negative scenarios**
 
 ## Engineering Priorities
 
-- Complete the remaining Selenium scenarios.
-- Expand checkout validation with order totals and field-specific address assertions.
+- Stabilize the completed 26-scenario suite across local and CI environments.
+- Expand checkout totals and invoice-content validation; extend exact address comparisons to earlier scenarios.
 - Improve failure diagnostics and test-account cleanup.
 - Add repeatable command-line execution for the API collection.
 
