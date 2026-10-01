@@ -1,4 +1,4 @@
-![Reuben Silerio — QA Engineer: Playwright, Selenium, API automation and CI](media/qa-profile-banner.svg)
+![Reuben Silerio — QA Engineer: Playwright, Selenium, API automation and CI](media/qa-portfolio-banner.png)
 
 # Reuben Silerio
 **QA Engineer · Web & Mobile Testing · UI & API Automation**
