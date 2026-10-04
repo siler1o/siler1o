@@ -30,14 +30,15 @@ My portfolio brings that testing experience into **Playwright + TypeScript**, **
 
 [![Playwright CI](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml)
 
-**One implemented input-fields test case, executed in Chromium, Firefox, and WebKit.**
+**Two implemented test cases—input fields and button interactions—configured for Chromium, Firefox, and WebKit.**
 
 - Page Object Model separates page locators and reusable interactions from test orchestration.
 - TC001 checks submitted text, appending, clearing, disabled state, keyboard navigation, and readonly behavior.
+- TC002 checks coordinate output, unchanged unrelated results, single- versus double-click behavior, right-click confirmation, and disabled button state.
 - Named `test.step()` blocks make each verification easy to follow in the HTML report.
 - GitHub Actions runs the suite, retries failures, and retains HTML reports for investigation.
 
-[**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [Test implementation](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC001-input-fields.spec.ts) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
+[**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [TC001 — Input fields](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC001-input-fields.spec.ts) · [TC002 — Buttons](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC002-buttons.spec.ts) · [Excel tracker](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/test-cases/QA_Playground_TypeScript_Playwright_Test_Suite.xlsx) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
 
 ### 02 / Postman · Newman · API automation
 
