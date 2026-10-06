@@ -7,9 +7,7 @@ I turn requirements into test scenarios, investigate defects, and help teams mak
 
 My portfolio brings that testing experience into **Playwright + TypeScript**, **Selenium + Python**, and **Postman + Newman**, with automated execution through **GitHub Actions**.
 
-I also design and build websites, most recently for **The Assumptionist Choir**, a parish choir in Mandaluyong. I tested that site with the same Playwright tooling I use for QA.
-
-[Explore projects](#featured-projects) · [Live website: The Assumptionist Choir](https://siler1o.github.io/tac-website/) · [CI and reporting](#ci-and-reporting) · [Live Allure report](https://siler1o.github.io/selenium-qa-automation-portfolio/) · [Test-case tracker](https://docs.google.com/spreadsheets/d/1E-rbgsHj4jv7pamglMdsREiQnfcl-aHWACqrRmAwD3w/edit?usp=drivesdk)
+[Explore projects](#featured-projects) · [CI and reporting](#ci-and-reporting) · [Live Allure report](https://siler1o.github.io/selenium-qa-automation-portfolio/) · [Test-case tracker](https://docs.google.com/spreadsheets/d/1E-rbgsHj4jv7pamglMdsREiQnfcl-aHWACqrRmAwD3w/edit?usp=drivesdk)
 
 | Test design | Team coordination | Platform coverage |
 | :--- | :--- | :--- |
@@ -25,8 +23,6 @@ I also design and build websites, most recently for **The Assumptionist Choir**,
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Newman](https://img.shields.io/badge/Newman-FF6C37?style=for-the-badge)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## Featured projects
@@ -35,15 +31,18 @@ I also design and build websites, most recently for **The Assumptionist Choir**,
 
 [![Playwright CI](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml)
 
-**Two implemented test cases—input fields and button interactions—configured for Chromium, Firefox, and WebKit.**
+**Five implemented test cases—input fields, buttons, forms, dropdowns, and a data table—configured for Chromium, Firefox, and WebKit.**
 
 - Page Object Model separates page locators and reusable interactions from test orchestration.
 - TC001 checks submitted text, appending, clearing, disabled state, keyboard navigation, and readonly behavior.
 - TC002 checks coordinate output, unchanged unrelated results, single- versus double-click behavior, right-click confirmation, and disabled button state.
+- TC003 checks form submission, reset, required-field validation, invalid email rejection, and password mismatch.
+- TC004 checks native select, multi-select, custom listbox, and searchable combobox selections.
+- TC005 checks table headers, search, pagination, three-state sorting, and Add Book validation.
 - Named `test.step()` blocks make each verification easy to follow in the HTML report.
 - GitHub Actions runs the suite, retries failures, and retains HTML reports for investigation.
 
-[**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [TC001 — Input fields](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC001-input-fields.spec.ts) · [TC002 — Buttons](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC002-buttons.spec.ts) · [Excel tracker](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/test-cases/QA_Playground_TypeScript_Playwright_Test_Suite.xlsx) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
+[**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [TC001 — Input fields](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC001-input-fields.spec.ts) · [TC002 — Buttons](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC002-buttons.spec.ts) · [TC003 — Forms](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC003-forms.spec.ts) · [TC004 — Dropdowns](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC004-dropdowns.spec.ts) · [TC005 — Data table](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC005-data-table.spec.ts) · [Excel tracker](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/test-cases/QA_Playground_TypeScript_Playwright_Test_Suite.xlsx) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
 
 ### 02 / Postman · Newman · API automation
 
@@ -72,24 +71,6 @@ I also design and build websites, most recently for **The Assumptionist Choir**,
 
 [**View project →**](https://github.com/siler1o/selenium-qa-automation-portfolio) · [Live Allure report](https://siler1o.github.io/selenium-qa-automation-portfolio/) · [CI/CD workflow](https://github.com/siler1o/selenium-qa-automation-portfolio/blob/main/.github/workflows/selenium-ci.yml)
 
-### 04 / Web design & build · The Assumptionist Choir
-
-[![The Assumptionist Choir website](https://raw.githubusercontent.com/siler1o/tac-website/main/media/readme-banner.jpg)](https://siler1o.github.io/tac-website/)
-
-**A live website for a real parish choir, founded in 1968, built in plain HTML, CSS and JavaScript.**
-
-- Full-screen performance video hero; **Hear us sing** turns the sound on and a gold sound wave follows the music via the Web Audio API.
-- Purposeful motion:
-  - headlines rise word by word
-  - photos open like church doors
-  - a hand-drawn line illustration of the church draws itself
-  - music-staff section dividers draw in
-- All content comes from the choir's own channels and press coverage: Mass schedule, membership requirements, booking flow and podcast.
-- Accessible by default: reduced-motion support, keyboard focus, alt text, and videos that play only while on screen.
-- Verified with Playwright at desktop and phone sizes: no console errors, no horizontal scroll, every reveal fires.
-
-[**Visit the site →**](https://siler1o.github.io/tac-website/) · [Source](https://github.com/siler1o/tac-website)
-
 ## CI and reporting
 
 | Project | Automated execution | Evidence | Delivery |
@@ -112,13 +93,13 @@ The badges link to current workflow results. Public practice-site availability c
 
 ## Current focus
 
-Expanding Playwright coverage, improving test reliability and failure diagnostics, and connecting UI and API checks to clear test documentation. On the side, I design and build websites for organisations that want a modern online presence.
+Expanding Playwright coverage, improving test reliability and failure diagnostics, and connecting UI and API checks to clear test documentation.
 
 **Based in the Philippines · Open to remote or hybrid QA Engineer opportunities.**
 
 ## Contact
 
-For QA roles or website projects:
+For QA roles:
 
 [![Email](https://img.shields.io/badge/Email-jhericosilerio%40gmail.com-0A66C2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jhericosilerio@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Reuben_Silerio-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/reuben-jherico-silerio-1aa2ba295/)
