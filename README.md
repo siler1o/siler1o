@@ -42,7 +42,7 @@ My portfolio brings that testing experience into **Playwright + TypeScript**, **
 - Named `test.step()` blocks make each verification easy to follow in the HTML report.
 - GitHub Actions runs the suite, retries failures, and retains HTML reports for investigation.
 
-[**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [TC001 — Input fields](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC001-input-fields.spec.ts) · [TC002 — Buttons](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC002-buttons.spec.ts) · [TC003 — Forms](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC003-forms.spec.ts) · [TC004 — Dropdowns](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC004-dropdowns.spec.ts) · [TC005 — Data table](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC005-data-table.spec.ts) · [Excel tracker](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/test-cases/QA_Playground_TypeScript_Playwright_Test_Suite.xlsx) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
+[**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [Excel tracker](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/test-cases/QA_Playground_TypeScript_Playwright_Test_Suite.xlsx) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
 
 ### 02 / Postman · Newman · API automation
 
