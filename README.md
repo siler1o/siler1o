@@ -31,12 +31,14 @@ My portfolio brings that testing experience into **Playwright + TypeScript**, **
 
 [![Playwright CI](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml)
 
-**Five UI test cases—input fields, buttons, forms, dropdowns, and a data table—run on Chromium, Firefox, and WebKit.**
+**UI automation suite for the QA Playground practice site: 18 designed scenarios spanning inputs, buttons, forms, dropdowns, data tables, dialogs, date pickers, windows, iFrames, Shadow DOM, drag and drop, and more, run on Chromium, Firefox, and WebKit.**
 
-- Covers text entry, click types, form validation, native and custom dropdowns, and table search, sorting, pagination, and dialog validation.
+- Drives the site like a user: typing, clicking, selecting, searching, sorting, paginating, and submitting forms, with every scenario documented step by step in a test-case tracker.
+- Verifies outcomes through visible results: field values, result messages, validation errors, enabled and disabled states, selected options, row counts, and sort order.
 - Reusable page objects with role- and test-id-based locators, and retrying assertions instead of fixed waits.
-- Named `test.step()` blocks make each verification easy to follow in the HTML report.
+- Named `test.step()` blocks map each check to its tracker step in the HTML report.
 - GitHub Actions runs the suite on pushes and PRs, retries failures, and retains HTML reports for investigation.
+- Automated so far: input fields, buttons, forms, dropdowns, and data table. The remaining scenarios are designed in the tracker.
 
 [**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [Excel tracker](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/test-cases/QA_Playground_TypeScript_Playwright_Test_Suite.xlsx) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
 
