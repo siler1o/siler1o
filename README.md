@@ -35,15 +35,18 @@ I also design and build websites, most recently for **The Assumptionist Choir**,
 
 [![Playwright CI](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml)
 
-**Two implemented test cases—input fields and button interactions—configured for Chromium, Firefox, and WebKit.**
+**Five implemented test cases—input fields, buttons, forms, dropdowns, and a data table—configured for Chromium, Firefox, and WebKit.**
 
 - Page Object Model separates page locators and reusable interactions from test orchestration.
 - TC001 checks submitted text, appending, clearing, disabled state, keyboard navigation, and readonly behavior.
 - TC002 checks coordinate output, unchanged unrelated results, single- versus double-click behavior, right-click confirmation, and disabled button state.
+- TC003 checks form submission, reset, required-field validation, invalid email rejection, and password mismatch.
+- TC004 checks native select, multi-select, custom listbox, and searchable combobox selections.
+- TC005 checks table headers, search, pagination, three-state sorting, and Add Book validation.
 - Named `test.step()` blocks make each verification easy to follow in the HTML report.
 - GitHub Actions runs the suite, retries failures, and retains HTML reports for investigation.
 
-[**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [TC001 — Input fields](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC001-input-fields.spec.ts) · [TC002 — Buttons](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC002-buttons.spec.ts) · [Excel tracker](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/test-cases/QA_Playground_TypeScript_Playwright_Test_Suite.xlsx) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
+[**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [TC001 — Input fields](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC001-input-fields.spec.ts) · [TC002 — Buttons](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC002-buttons.spec.ts) · [TC003 — Forms](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC003-forms.spec.ts) · [TC004 — Dropdowns](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC004-dropdowns.spec.ts) · [TC005 — Data table](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/tests/TC005-data-table.spec.ts) · [Excel tracker](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/test-cases/QA_Playground_TypeScript_Playwright_Test_Suite.xlsx) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
 
 ### 02 / Postman · Newman · API automation
 
