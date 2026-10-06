@@ -74,8 +74,8 @@ My portfolio brings that testing experience into **Playwright + TypeScript**, **
 | Project | Automated execution | Evidence | Delivery |
 | :--- | :--- | :--- | :--- |
 | Playwright | Pushes and PRs to `main`; manual runs | HTML report; trace on first retry | Downloadable report artifact |
-| Postman / Newman | Relevant pushes to `main`; PRs to `main`; manual runs | CLI output and JUnit artifact | Downloadable test results |
 | Selenium / Pytest | Pushes and PRs to `main`; manual runs | Allure results and published report | Allure report deployed to GitHub Pages after successful eligible runs |
+| Postman / Newman | Relevant pushes to `main`; PRs to `main`; manual runs | CLI output and JUnit artifact | Downloadable test results |
 
 **CI is implemented in all three projects.** Selenium also demonstrates automated report deployment. These portfolios do not deploy the applications under test.
 
