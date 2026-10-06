@@ -9,7 +9,7 @@ My portfolio brings that testing experience into **Playwright + TypeScript**, **
 
 I also design and build websites, most recently for **The Assumptionist Choir**, a parish choir in Mandaluyong. I tested that site with the same Playwright tooling I use for QA.
 
-[Explore projects](#featured-projects) · [Live website: The Assumptionist Choir](https://siler1o.github.io/tac-website/) · [CI and reporting](#ci-and-reporting) · [Live Allure report](https://siler1o.github.io/selenium-qa-automation-portfolio/) · [Test-case tracker](https://docs.google.com/spreadsheets/d/1E-rbgsHj4jv7pamglMdsREiQnfcl-aHWACqrRmAwD3w/edit?usp=drivesdk)
+[Explore projects](#featured-projects) · [CI and reporting](#ci-and-reporting) · [Live Allure report](https://siler1o.github.io/selenium-qa-automation-portfolio/) · [Test-case tracker](https://docs.google.com/spreadsheets/d/1E-rbgsHj4jv7pamglMdsREiQnfcl-aHWACqrRmAwD3w/edit?usp=drivesdk)
 
 | Test design | Team coordination | Platform coverage |
 | :--- | :--- | :--- |
