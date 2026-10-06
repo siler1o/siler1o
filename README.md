@@ -31,16 +31,12 @@ My portfolio brings that testing experience into **Playwright + TypeScript**, **
 
 [![Playwright CI](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml)
 
-**Five implemented test cases—input fields, buttons, forms, dropdowns, and a data table—configured for Chromium, Firefox, and WebKit.**
+**Five UI test cases—input fields, buttons, forms, dropdowns, and a data table—run on Chromium, Firefox, and WebKit.**
 
-- Page Object Model separates page locators and reusable interactions from test orchestration.
-- TC001 checks submitted text, appending, clearing, disabled state, keyboard navigation, and readonly behavior.
-- TC002 checks coordinate output, unchanged unrelated results, single- versus double-click behavior, right-click confirmation, and disabled button state.
-- TC003 checks form submission, reset, required-field validation, invalid email rejection, and password mismatch.
-- TC004 checks native select, multi-select, custom listbox, and searchable combobox selections.
-- TC005 checks table headers, search, pagination, three-state sorting, and Add Book validation.
+- Covers text entry, click types, form validation, native and custom dropdowns, and table search, sorting, pagination, and dialog validation.
+- Reusable page objects with role- and test-id-based locators, and retrying assertions instead of fixed waits.
 - Named `test.step()` blocks make each verification easy to follow in the HTML report.
-- GitHub Actions runs the suite, retries failures, and retains HTML reports for investigation.
+- GitHub Actions runs the suite on pushes and PRs, retries failures, and retains HTML reports for investigation.
 
 [**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [Excel tracker](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/test-cases/QA_Playground_TypeScript_Playwright_Test_Suite.xlsx) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
 
