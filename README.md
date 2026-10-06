@@ -42,7 +42,20 @@ My portfolio brings that testing experience into **Playwright + TypeScript**, **
 
 [**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [Excel tracker](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/test-cases/QA_Playground_TypeScript_Playwright_Test_Suite.xlsx) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
 
-### 02 / Postman · Newman · API automation
+### 02 / Selenium · Python · UI regression
+
+[![Selenium CI/CD](https://github.com/siler1o/selenium-qa-automation-portfolio/actions/workflows/selenium-ci.yml/badge.svg?branch=main)](https://github.com/siler1o/selenium-qa-automation-portfolio/actions/workflows/selenium-ci.yml)
+
+**26 planned UI scenarios implemented for Automation Exercise.**
+
+- Registration, authentication, product discovery, cart operations, checkout journeys, reviews, invoice downloads, and scrolling.
+- Reusable page objects, explicit waits, shared Pytest fixtures, and isolated registration data.
+- Headless Chrome execution in GitHub Actions, with Allure results retained as artifacts.
+- Successful eligible `main` runs generate and publish the Allure report to GitHub Pages.
+
+[**View project →**](https://github.com/siler1o/selenium-qa-automation-portfolio) · [Live Allure report](https://siler1o.github.io/selenium-qa-automation-portfolio/) · [CI/CD workflow](https://github.com/siler1o/selenium-qa-automation-portfolio/blob/main/.github/workflows/selenium-ci.yml)
+
+### 03 / Postman · Newman · API automation
 
 [![API CI](https://github.com/siler1o/postman-api-testing-portfolio/actions/workflows/api-tests.yml/badge.svg?branch=main)](https://github.com/siler1o/postman-api-testing-portfolio/actions/workflows/api-tests.yml)
 
@@ -55,19 +68,6 @@ My portfolio brings that testing experience into **Playwright + TypeScript**, **
 - Dependency guards block account operations when successful account creation has not been recorded.
 
 [**View project →**](https://github.com/siler1o/postman-api-testing-portfolio) · [Collection & environment](https://github.com/siler1o/postman-api-testing-portfolio/tree/main/postman) · [CI runs](https://github.com/siler1o/postman-api-testing-portfolio/actions/workflows/api-tests.yml)
-
-### 03 / Selenium · Python · UI regression
-
-[![Selenium CI/CD](https://github.com/siler1o/selenium-qa-automation-portfolio/actions/workflows/selenium-ci.yml/badge.svg?branch=main)](https://github.com/siler1o/selenium-qa-automation-portfolio/actions/workflows/selenium-ci.yml)
-
-**26 planned UI scenarios implemented for Automation Exercise.**
-
-- Registration, authentication, product discovery, cart operations, checkout journeys, reviews, invoice downloads, and scrolling.
-- Reusable page objects, explicit waits, shared Pytest fixtures, and isolated registration data.
-- Headless Chrome execution in GitHub Actions, with Allure results retained as artifacts.
-- Successful eligible `main` runs generate and publish the Allure report to GitHub Pages.
-
-[**View project →**](https://github.com/siler1o/selenium-qa-automation-portfolio) · [Live Allure report](https://siler1o.github.io/selenium-qa-automation-portfolio/) · [CI/CD workflow](https://github.com/siler1o/selenium-qa-automation-portfolio/blob/main/.github/workflows/selenium-ci.yml)
 
 ## CI and reporting
 
