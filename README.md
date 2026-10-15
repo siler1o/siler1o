@@ -31,14 +31,15 @@ My portfolio brings that testing experience into **Playwright + TypeScript**, **
 
 [![Playwright CI](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml)
 
-**UI automation suite for the QA Playground practice site: 18 designed scenarios spanning inputs, buttons, forms, dropdowns, data tables, dialogs, date pickers, windows, iFrames, Shadow DOM, drag and drop, and more, run on Chromium, Firefox, and WebKit.**
+**UI automation suite for the QA Playground practice site: 18 designed scenarios, 15 automated, each run on Chromium, Firefox, and WebKit.**
 
-- Drives the site like a user: typing, clicking, selecting, searching, sorting, paginating, and submitting forms, with every scenario documented step by step in a test-case tracker.
-- Verifies outcomes through visible results: field values, result messages, validation errors, enabled and disabled states, selected options, row counts, and sort order.
+- Drives the site like a user: typing, clicking, selecting, searching, sorting, paginating, submitting forms, uploading files, dragging cards, and switching between tabs and iFrames, with every scenario documented step by step in a test-case tracker.
+- Verifies outcomes through visible results: field values, result messages, validation errors, enabled and disabled states, selected options, row counts, sort order, and link HTTP status.
 - Reusable page objects with role- and test-id-based locators, and retrying assertions instead of fixed waits.
+- Handles real-site timing: bounded waits for changing UI, and a retry on the first action when a page has not finished hydrating.
 - Named `test.step()` blocks map each check to its tracker step in the HTML report.
 - GitHub Actions runs the suite on pushes and PRs, retries failures, and retains HTML reports for investigation.
-- Automated so far: input fields, buttons, forms, dropdowns, and data table. The remaining scenarios are designed in the tracker.
+- Automated so far (15 of 18): input fields, buttons, forms, dropdowns, data table, alerts and dialogs, radio and checkbox, date picker, links, tabs and windows, dynamic waits, multi select, file upload, drag and drop, and iFrames. Shadow DOM, modal windows, and infinite scroll are designed in the tracker.
 
 [**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [Excel tracker](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/test-cases/QA_Playground_TypeScript_Playwright_Test_Suite.xlsx) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
 
@@ -91,7 +92,7 @@ The badges link to current workflow results. Public practice-site availability c
 
 ## Current focus
 
-Expanding Playwright coverage, improving test reliability and failure diagnostics, and connecting UI and API checks to clear test documentation.
+Finishing the last three Playwright scenarios (Shadow DOM, modal windows, infinite scroll), improving test reliability and failure diagnostics, and connecting UI and API checks to clear test documentation.
 
 **Based in the Philippines · Open to remote or hybrid QA Engineer opportunities.**
 
