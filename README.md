@@ -1,13 +1,13 @@
-![Reuben Silerio — QA Engineer: Playwright, Selenium, API automation and CI](media/qa-portfolio-banner.png)
+![Reuben Silerio — QA Engineer: Robot Framework, Playwright, Selenium, API automation and CI](media/qa-portfolio-banner.png)
 
 # Reuben Silerio
 **QA Engineer · Web & Mobile Testing · UI & API Automation**
 
 I turn requirements into test scenarios, investigate defects, and help teams make informed release decisions. My professional background spans functional, regression, exploratory, UAT, and production testing across web, Android, iOS, and mobile web.
 
-My portfolio brings that testing experience into **Playwright + TypeScript**, **Selenium + Python**, and **Postman + Newman**, with automated execution through **GitHub Actions**.
+At work I build and maintain **Robot Framework** test automation. My public portfolio brings the same testing experience into **Playwright + TypeScript**, **Selenium + Python**, and **Postman + Newman**, with automated execution through **GitHub Actions**. I also test AI chatbots and use AI tools in my own manual and automation workflow.
 
-[Explore projects](#featured-projects) · [CI and reporting](#ci-and-reporting) · [Live Allure report](https://siler1o.github.io/selenium-qa-automation-portfolio/) · [Test-case tracker](https://docs.google.com/spreadsheets/d/1E-rbgsHj4jv7pamglMdsREiQnfcl-aHWACqrRmAwD3w/edit?usp=drivesdk)
+[Current work](#current-work--robot-framework-automation) · [Explore projects](#featured-projects) · [CI and reporting](#ci-and-reporting) · [Live Allure report](https://siler1o.github.io/selenium-qa-automation-portfolio/) · [Test-case tracker](https://docs.google.com/spreadsheets/d/1E-rbgsHj4jv7pamglMdsREiQnfcl-aHWACqrRmAwD3w/edit?usp=drivesdk)
 
 | Test design | Team coordination | Platform coverage |
 | :--- | :--- | :--- |
@@ -15,6 +15,7 @@ My portfolio brings that testing experience into **Playwright + TypeScript**, **
 
 ## Automation toolkit
 
+![Robot Framework](https://img.shields.io/badge/Robot_Framework-000000?style=for-the-badge&logo=robotframework&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -25,13 +26,30 @@ My portfolio brings that testing experience into **Playwright + TypeScript**, **
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+## Current work · Robot Framework automation
+
+**Building a company's Robot Framework UI automation from the ground up, alongside manual testing and test documentation.**
+
+- Layered framework structure: a shared resource hub, feature keyword files for test steps, Python page files for locators, and separate input files for test data.
+- Every automated test case ID matches its test case in the team's test management tool, so automation results trace straight back to documented cases.
+- Each test has its own setup and teardown, so cases run independently and in any order.
+- Clean, consistently aligned keyword tables with descriptive variable names, following the team's coding standards and code review.
+- Write and maintain test cases, test runs, and bug tickets in an internal test management tool: exact expected results, concrete input values, and clear preconditions.
+
+*Company code is private, so this work isn't linked here.*
+
+## AI and LLM testing
+
+- Test AI chatbots for hallucinations, factual drift, and quality degradation in long conversations and large contexts.
+- Use AI tools day to day to speed up test design, test data, debugging, and automation code, and review their output like any other code.
+
 ## Featured projects
 
 ### 01 / Playwright · TypeScript · Cross-browser testing
 
 [![Playwright CI](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions/workflows/playwright.yml)
 
-**UI automation suite for the QA Playground practice site: 18 designed scenarios, 15 automated, each run on Chromium, Firefox, and WebKit.**
+**UI automation suite for the QA Playground practice site: all 18 designed scenarios automated, each run on Chromium, Firefox, and WebKit.**
 
 - Drives the site like a user: typing, clicking, selecting, searching, sorting, paginating, submitting forms, uploading files, dragging cards, and switching between tabs and iFrames, with every scenario documented step by step in a test-case tracker.
 - Verifies outcomes through visible results: field values, result messages, validation errors, enabled and disabled states, selected options, row counts, sort order, and link HTTP status.
@@ -39,7 +57,7 @@ My portfolio brings that testing experience into **Playwright + TypeScript**, **
 - Handles real-site timing: bounded waits for changing UI, and a retry on the first action when a page has not finished hydrating.
 - Named `test.step()` blocks map each check to its tracker step in the HTML report.
 - GitHub Actions runs the suite on pushes and PRs, retries failures, and retains HTML reports for investigation.
-- Automated so far (15 of 18): input fields, buttons, forms, dropdowns, data table, alerts and dialogs, radio and checkbox, date picker, links, tabs and windows, dynamic waits, multi select, file upload, drag and drop, and iFrames. Shadow DOM, modal windows, and infinite scroll are designed in the tracker.
+- Coverage (18 of 18): input fields, buttons, forms, dropdowns, data table, alerts and dialogs, radio and checkbox, date picker, links, tabs and windows, dynamic waits, multi select, file upload, drag and drop, iFrames, Shadow DOM, modal windows, and infinite scroll.
 
 [**View project →**](https://github.com/siler1o/QA-Playwright-TypeScript-Automation) · [Excel tracker](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/blob/main/test-cases/QA_Playground_TypeScript_Playwright_Test_Suite.xlsx) · [CI runs](https://github.com/siler1o/QA-Playwright-TypeScript-Automation/actions)
 
@@ -92,13 +110,13 @@ The badges link to current workflow results. Public practice-site availability c
 
 ## Current focus
 
-Finishing the last three Playwright scenarios (Shadow DOM, modal windows, infinite scroll), improving test reliability and failure diagnostics, and connecting UI and API checks to clear test documentation.
+Growing a Robot Framework suite at work, keeping automation traceable to documented test cases, and improving test reliability and failure diagnostics across my UI and API projects.
 
-**Based in the Philippines · Open to remote or hybrid QA Engineer opportunities.**
+**Based in the Philippines · Always happy to connect with QA and automation teams.**
 
 ## Contact
 
-For QA roles:
+Get in touch:
 
 [![Email](https://img.shields.io/badge/Email-jhericosilerio%40gmail.com-0A66C2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jhericosilerio@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Reuben_Silerio-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/reuben-jherico-silerio-1aa2ba295/)
